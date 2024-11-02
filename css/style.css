@@ -15,8 +15,7 @@
     /* margin-top: 100px;
     margin-left: 50px; */
 }
-
-.link{
+p{
     background-color: blue;
     color: white;
     padding: 20px;
@@ -24,21 +23,24 @@
     display: none;
 }
 
-.link:hover a{
+div:hover p{
     background-color: blue;
     color: white;
     padding: 20px;
     display: block;
 }
-
+/*   */
 /* .link:hover{
     background-color: brown;
     font-size: larger;
     font-weight: bolder;
 }
-
 .link:active{
     color: aqua;
     background-color: black;
+} */
+/* ::selection{
+    color: red;
+    background:yellow;
 } */
 

@@ -21,9 +21,17 @@
     color: white;
     padding: 20px;
     text-decoration: none;
+    display: none;
 }
 
-.link:hover{
+.link:hover a{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+/* .link:hover{
     background-color: brown;
     font-size: larger;
     font-weight: bolder;
@@ -32,4 +40,5 @@
 .link:active{
     color: aqua;
     background-color: black;
-}
+} */
+

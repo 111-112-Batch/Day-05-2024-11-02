@@ -28,3 +28,8 @@
     font-size: larger;
     font-weight: bolder;
 }
+
+.link:active{
+    color: aqua;
+    background-color: black;
+}

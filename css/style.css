@@ -6,12 +6,25 @@
     /* position: relative; */
     /* position:absolute; */
     /* position: fixed; */
-    position: sticky; 
+    /* position: sticky;  */
+    /* position: static; */
     left: 50px;
     top:10px;
-
     z-index: -1;
     
     /* margin-top: 100px;
     margin-left: 50px; */
+}
+
+.link{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: brown;
+    font-size: larger;
+    font-weight: bolder;
 }
